@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.col{
+    background-color: gray;
+    border: 2px solid black;
+    margin: 1rem;
+    
+}
+h1{
+    padding: 5%;
+}
+h2{
+    border: 2px solid black;
+}
+.pink{
+    background-color: pink;
+    width: 50%;
+    margin-left: 53.5%;
+    font-size: 1.2rem;
+}
+ .red{
+    background-color: rgb(181, 54, 54);
+    color: white;
+    width: 50%;
+    margin-left: 53.5%;
+    font-size: 1.2rem;
+ }
+ .yellow{
+    background-color: rgb(241, 241, 147);
+    width: 50%;
+    margin-left: 53.5%;
+    font-size: 1.2rem;
+ }

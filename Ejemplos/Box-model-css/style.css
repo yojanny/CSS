@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+}
+
+div{
+    background-image: url(Frisbee.jpg);
+    color:#ffffff;
+    box-sizing: border-box;
+
+    /* add here */
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+    margin: 5px;
+    border: 20px solid red;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+div{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    padding: 2%;
+    display: inline-block;
+    transition: 2s ease;
+}
+div:focus{
+    background-color: #ffff00;
+}
+div:hover{
+    width: 200px;
+    background-color: #800040;
+
+}
+.animate{
+    background: #2db34a;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+   
+
+}
+.animate:hover{
+    background: #ff7b29;
+}

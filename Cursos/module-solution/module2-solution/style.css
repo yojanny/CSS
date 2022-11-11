@@ -73,7 +73,7 @@ section{
 
 
 
-@media all and (max-width: 800px) and (min-width: 300px) {
+@media all and (max-width: 700px) {
     aside, article{
         grid-column: 1 / span 3;
     }

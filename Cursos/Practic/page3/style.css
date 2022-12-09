@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+  
+
+header{
+
+    text-align: center;
+    height: 600px;
+    background-image: url(/page3/imagen/6.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header::before{
+    content: "";
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient( 90deg,rgb(89, 89, 206), rgb(100, 196, 234));
+    opacity: 0.8;
+    z-index: auto; 
+
+} 
+
+.title{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 16rem;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 1%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+nav a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 15rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.contexto{
+    display: grid;
+    justify-items: center;
+    position: relative;
+    bottom: 5rem;
+    
+    
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    left: 12rem;
+}
+ h3{
+    color:#DD820D;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2%;
+    padding-left: 5%;
+ }
+ .me{
+    text-align: center;
+    width: 500px;
+    margin: 3%;
+ }
+
+ span{
+    color: #3493C9;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+h2.job{
+    text-align: center;
+    font-size: 2rem;
+    color:#DD820D; 
+    
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2%;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
+}
+h4{
+    margin: 1%;
+    color:#DD820D;
+}
+
+.form-contes{
+    display: flex;
+    justify-content: center;
+     margin-left: 15rem;
+     text-align: center;
+    height: 200px;
+    width: 60%;
+    border: 2px solid rgb(60, 183, 217);
+    padding: 2rem;
+   
+}
+
+.form{
+    text-align: center;
+
+}
+div.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 1rem;
+    padding-left: 3.5rem;
+
+}
+
+
+
+label.form-label{
+    text-align:center;
+color: gray;
+font-size: 1rem;
+position: relative;
+right: 17rem;
+cursor: default;
+
+}
+
+input.form-input{
+    border: 0.5px solid rgb(204, 189, 189);
+  border-radius: 5px;
+  
+}
+
+
+.contact{
+    text-align: center;
+    color: rgb(51, 155, 155);
+    font-size: 1.5rem;
+
+    
+}
+
+footer.pie{
+    display: flex;
+    justify-content: center;
+   background-color: rgb(51, 155, 155);
+   width: 100%;
+   height: 100px;
+}
+
+
+.fb{
+    background: rgb(0, 81, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background: rgb(0, 140, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.in{
+    background: rgb(255, 0, 179);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.li{
+    background: rgb(0, 102, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.yt{
+    background: rgb(255, 0, 0);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+} 
+
+
+.redes{
+margin: 1rem;
+text-align: center;
+
+gap: 1rem;
+height: 60px;
+}
+
+.derechos{
+    margin: 2rem;
+
+}
+
+@media screen and (max-width:700px) and (min-width:500px) {
+       header{
+        background-size: 100% 100%;
+        height: 300px;
+       }
+       header::before{
+        content: "";
+        width: 100%;
+        height: 36vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient( 90deg,rgb(89, 89, 206), rgb(100, 196, 234));
+        opacity: 0.8;
+        z-index: auto; 
+    
+    } 
+    nav a{
+        display: block;
+    }
+    .title{
+         font-size: 0.7rem;
+         text-align: center;
+         position: relative;
+         top: 10rem;
+    }
+
+    .logo{
+        width: 75px;
+        height: 75px;
+        position: relative;
+        top: 2rem;
+        left: 6rem;
+
+       
+    }
+
+    .me{
+        text-align: center;
+        width: 250px;
+        margin: 3%;
+        padding-top: 2rem;
+    }
+    h3{
+        margin-top: 2rem;
+    }
+
+    .lista{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-contes{
+       
+        flex-direction: column;
+        margin-right: 10rem;
+         text-align: center;
+        
+    }
+    
+
+    footer.pie{
+        display: flex;
+       gap: 1rem;
+        width: 100%;
+        height: 20vh;
+   
+        text-align: center;
+        background-color: white ;
+        
+    }
+    .redes{
+        width: 10px;
+    }
+    .derechos{
+      margin-top: -3rem;
+    }
+}

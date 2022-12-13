@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2%;
+    padding: 2%;
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(227, 125, 125);
+    font-size: 3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+article{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210, 147, 70);
+}
+section{
+    font-size: 1.5rem;
+    width: 500px;
+    padding-top: 2%;
+}
+img{
+   width: 500px;
+}
+
+p{
+    margin: 1.5%;
+    text-align: center;
+}
+
+footer{
+    font-size: 1.2rem;
+    color: rgb(245, 197, 108);
+    display: flex;
+    justify-content: flex-end;
+}
+footer a{
+    
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media (min-width:900px){
+    body{
+        display: block;
+
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        width: 600px;
+
+    }
+
+   
+}
+
+@media (min-width:350px) {
+    img{
+        width: 300px;
+    }
+    p{
+    line-height: 30px;
+    
+    }
+    h1{
+        text-align: center;
+    }
+}
